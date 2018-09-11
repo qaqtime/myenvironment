@@ -15,12 +15,16 @@ categories: ["other"]
 
 # 这是一个魅力的传输协议
 
-##### 这是真的吗!![真的不错](./img/geek.png)
+> 这里的图片最好就是用/image/XXX,直接引用到根目录的image，hugo生成的图片目录里面去
+>
+> - 这个根目录的相对路径在其他很多地方也可以用到
+
+![真的不错](/image/geek.png)
 
 >
 
 ------
-![geekbang](../../../image/geek.png)
+
 1. #### ded
 
 2. #### ==2343==
@@ -29,3 +33,4 @@ categories: ["other"]
 ```python
 print('hell word')
 ```
+

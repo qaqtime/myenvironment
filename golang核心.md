@@ -4,7 +4,7 @@
 
 ------
 
-
+## 2.基本语法
 
 ### 内建变量类型
 
@@ -16,7 +16,7 @@
 
 ##### int类型必须要定义，不能隐式转化，而且float是不准的
 
-![1536559546546](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536559546546.png)
+![1536559546546](./go_img/1536559546546.png)
 
 ### 常量与枚举
 
@@ -24,9 +24,9 @@
 
 #### 当然类型的定义也是可以批量的加'()'即可
 
-![1536560007066](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536560007066.png)
+![1536560007066](./go_img/1536560007066.png)
 
-![1536560166285](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536560166285.png)
+![1536560166285](./go_img/1536560166285.png)
 
 #### cpp=iota（iota代表的是之后的常量都是自增‘1,2,3...’）
 
@@ -34,31 +34,31 @@
 
 #### 自增值枚举类型
 
-![1536560434794](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536560434794.png)
+![1536560434794](./go_img/1536560434794.png)
 
 #### 变量要点定义回顾
 
-![1536560526218](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536560526218.png)
+![1536560526218](./go_img/1536560526218.png)
 
 ### 条件语句
 
 #### if
 
-![1536560703018](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536560703018.png)
+![1536560703018](./go_img/1536560703018.png)
 
-![1536560897601](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536560897601.png)
+![1536560897601](./go_img/1536560897601.png)
 
 #### if的简写形式
 
-![1536562412995](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536562412995.png)
+![1536562412995](./go_img/1536562412995.png)
 
 #### switch
 
-![1536562621234](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536562621234.png)
+![1536562621234](./go_img/1536562621234.png)
 
 #### 实战switch
 
-![1536562735796](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536562735796.png)![1536562795835](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536562795835.png)
+![1536562735796](./go_img/1536562735796.png)![1536562795835](./go_img/1536562795835.png)
 
 ##### switch后面可以没有表达式
 
@@ -66,59 +66,219 @@
 
 #### for
 
-![1536574782110](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536574782110.png)
+![1536574782110](./go_img/1536574782110.png)
 
 #### for实战（将整数转化为二进制）
 
-![1536575055032](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575055032.png)
+![1536575055032](./go_img/1536575055032.png)
 
-![1536574994322](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536574994322.png)
+![1536574994322](./go_img/1536574994322.png)
 
-![1536575212065](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575212065.png)
+![1536575212065](./go_img/1536575212065.png)
 
 ##### go语言的死循环
 
-![1536575166058](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575166058.png)
+![1536575166058](./go_img/1536575166058.png)
 
 ##### 初始，递增都可以省略（什么都省略就是死循环了）
 
-![1536575253306](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575253306.png)
+![1536575253306](./go_img/1536575253306.png)
 
 #### 基本语法要点回顾
 
-![1536575340626](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575340626.png)
+![1536575340626](./go_img/1536575340626.png)
 
 ### 函数
 
-![1536575422973](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575422973.png)
+![1536575422973](./go_img/1536575422973.png)
 
-![1536575582001](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575582001.png)
+![1536575582001](./go_img/1536575582001.png)
 
 ###### 这里是作为参数
 
 #### 函数式编程的特点
 
-![1536575496960](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575496960.png)
+![1536575496960](./go_img/1536575496960.png)
 
 
 
 #### 可变参数列表
 
-![1536575678162](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575678162.png)
+![1536575678162](./go_img/1536575678162.png)
 
 #### 要点回顾
 
-![1536575736395](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575736395.png)
+![1536575736395](./go_img/1536575736395.png)
 
 ### 指针
 
 #### go语言的指针是不能运算的
 
-![1536575824050](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575824050.png)
+![1536575824050](./go_img/1536575824050.png)
 
 #### c++代码说明值传递，引用传递的区别
 
-![1536575870779](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575870779.png)
+![1536575870779](./go_img/1536575870779.png)
 
 ##### 正确答案最好是：3			4
+
+##### Go语言只有值传递一种方式
+
+#### 参数传递
+
+![1536635410700](E:\hugo-github\go_img\1536635410700.png)
+
+##### 第二种传递方式
+
+![536635505138](E:\hugo-github\go_img\1536635505138.png)
+
+##### 第三种传递方式
+
+![1536636584338](C:\Users\ADMINI~1\AppData\Local\Temp\1536636584338.png)
+
+![1536636683112](E:\hugo-github\go_img\1536636683112.png)
+
+![1536636730487](E:\hugo-github\go_img\1536636730487.png)
+
+## 3.内建容器
+
+### 数组，切片与容器
+
+### 数组
+
+#### 数组写法的区别
+
+![1536648451631](E:\hugo-github\go_img\1536648451631.png)![1536650111007](E:\hugo-github\go_img\1536650111007.png)
+
+![1536650154927](E:\hugo-github\go_img\1536650154927.png)
+
+#### range遍历的一些用法
+
+![1536650269943](E:\hugo-github\go_img\1536650269943.png)
+
+#### 遍历注意点
+
+![1536650333624](E:\hugo-github\go_img\1536650333624.png)
+
+#### 对range的说明
+
+![1536650438809](E:\hugo-github\go_img\1536650438809.png)
+
+#### 数组是值类型
+
+ ![1536650675297](E:\hugo-github\go_img\1536650675297.png)
+
+#### 切片
+
+![1536650828961](E:\hugo-github\go_img\1536650828961.png)
+
+##### reslice的用法
+
+![1536650917310](E:\hugo-github\go_img\1536650917310.png)
+
+##### slice的实现图
+
+![1536651028129](E:\hugo-github\go_img\1536651028129.png)
+
+##### slice的扩展
+
+![1536651069081](E:\hugo-github\go_img\1536651069081.png)
+
+##### 向slice添加元素
+
+![1536651232864](E:\hugo-github\go_img\1536651232864.png)
+
+#### Map
+
+![1536651279216](E:\hugo-github\go_img\1536651279216.png)
+
+##### Map的操作
+
+![1536651338097](E:\hugo-github\go_img\1536651338097.png)
+
+##### Map的遍历
+
+![1536651385601](E:\hugo-github\go_img\1536651385601.png)
+
+##### Map的key
+
+![1536651456785](E:\hugo-github\go_img\1536651456785.png)
+
+#### 章节实列
+
+##### 寻找最长不含有重复字符的子串
+
+###### [leetcode链接](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/)
+
+![1536651546225](E:\hugo-github\go_img\1536651546225.png)
+
+###### 解决方法
+
+![1536651822608](E:\hugo-github\go_img\1536651822608.png)
+
+###### 代码部分
+
+![1536651922353](E:\hugo-github\go_img\1536651922353.png)
+
+![1536651952177](E:\hugo-github\go_img\1536651952177.png)
+
+##### rune相当于go的char
+
+![1536652199662](E:\hugo-github\go_img\1536652199662.png)
+
+##### 其他字串串操作
+
+###### 通过strings.调出还有哪些字符串可以调用
+
+![1536652328768](E:\hugo-github\go_img\1536652328768.png)
+
+## 4.面向对象
+
+### 面向对象
+
+#### 这里只有封装，并没有继承与多态
+
+##### ——更多的是面向接口的开发
+
+![1536654891806](E:\hugo-github\go_img\1536654891806.png)
+
+##### 残缺部分
+
+![1536655118959](E:\hugo-github\go_img\1536655118959.png)
+
+##### 实列
+
+![1536655163655](E:\hugo-github\go_img\1536655163655.png)
+
+#### 结构的创建
+
+![1536655241231](E:\hugo-github\go_img\1536655241231.png)
+
+##### 结构创建像其他的如java都是在堆上的
+
+###### 而在go语言里面不需要知道
+
+##### 通过遍历建立树
+
+![1536655508903](E:\hugo-github\go_img\1536655508903.png)
+
+##### 为结构定义方法
+
+###### 其实就是其中的一种写法，语法糖
+
+![1536655944383](E:\hugo-github\go_img\1536655944383.png)
+
+![1536656018232](E:\hugo-github\go_img\1536656018232.png)
+
+###### **值接收者**VS指针接收者
+
+指针接收者
+
+![1536659647478](E:\hugo-github\go_img\1536659647478.png)
+
+值接收者
+
+![1536659806728](E:\hugo-github\go_img\1536659806728.png)
+
+
 

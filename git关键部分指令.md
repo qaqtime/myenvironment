@@ -14,7 +14,7 @@
    > git remote add origin XXX（:qaqtime/qaqtime.github.io.git）仓库链接
    > ```
 
-3. **本地与git更新同步(建议是不是第一次建库都可以用下面的命令更新)**
+3. **本地与git更新同步(建议是不是第一次建库一般都需要用下面的命令更新)**
 
    > ```shell
    > git pull --rebase origin master
