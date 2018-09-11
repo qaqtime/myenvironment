@@ -16,7 +16,7 @@
 
 ##### int类型必须要定义，不能隐式转化，而且float是不准的
 
-![1536559546546](.\go_img\1536559546546.png)
+![1536559546546](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536559546546.png)
 
 ### 常量与枚举
 
@@ -24,9 +24,9 @@
 
 #### 当然类型的定义也是可以批量的加'()'即可
 
-![1536560007066](.\go_img\1536560007066.png)
+![1536560007066](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536560007066.png)
 
-![1536560166285](.\go_img\1536560166285.png)
+![1536560166285](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536560166285.png)
 
 #### cpp=iota（iota代表的是之后的常量都是自增‘1,2,3...’）
 
@@ -34,31 +34,31 @@
 
 #### 自增值枚举类型
 
-![1536560434794](.\go_img\1536560434794.png)
+![1536560434794](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536560434794.png)
 
 #### 变量要点定义回顾
 
-![1536560526218](.\go_img\1536560526218.png)
+![1536560526218](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536560526218.png)
 
 ### 条件语句
 
 #### if
 
-![1536560703018](.\go_img\1536560703018.png)
+![1536560703018](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536560703018.png)
 
-![1536560897601](.\go_img\1536560897601.png)
+![1536560897601](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536560897601.png)
 
 #### if的简写形式
 
-![1536562412995](.\go_img\1536562412995.png)
+![1536562412995](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536562412995.png)
 
 #### switch
 
-![1536562621234](.\go_img\1536562621234.png)
+![1536562621234](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536562621234.png)
 
 #### 实战switch
 
-![1536562735796](.\go_img\1536562735796.png)![1536562795835](.\go_img\1536562795835.png)
+![1536562735796](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536562735796.png)![1536562795835](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536562795835.png)
 
 ##### switch后面可以没有表达式
 
@@ -66,59 +66,59 @@
 
 #### for
 
-![1536574782110](.\go_img\1536574782110.png)
+![1536574782110](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536574782110.png)
 
 #### for实战（将整数转化为二进制）
 
-![1536575055032](.\go_img\1536575055032.png)
+![1536575055032](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575055032.png)
 
-![1536574994322](.\go_img\1536574994322.png)
+![1536574994322](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536574994322.png)
 
-![1536575212065](.\go_img\1536575212065.png)
+![1536575212065](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575212065.png)
 
 ##### go语言的死循环
 
-![1536575166058](.\go_img\1536575166058.png)
+![1536575166058](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575166058.png)
 
 ##### 初始，递增都可以省略（什么都省略就是死循环了）
 
-![1536575253306](.\go_img\1536575253306.png)
+![1536575253306](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575253306.png)
 
 #### 基本语法要点回顾
 
-![1536575340626](.\go_img\1536575340626.png)
+![1536575340626](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575340626.png)
 
 ### 函数
 
-![1536575422973](.\go_img\1536575422973.png)
+![1536575422973](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575422973.png)
 
-![1536575582001](.\go_img\1536575582001.png)
+![1536575582001](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575582001.png)
 
 ###### 这里是作为参数
 
 #### 函数式编程的特点
 
-![1536575496960](.\go_img\1536575496960.png)
+![1536575496960](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575496960.png)
 
 
 
 #### 可变参数列表
 
-![1536575678162](.\go_img\1536575678162.png)
+![1536575678162](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575678162.png)
 
 #### 要点回顾
 
-![1536575736395](.\go_img\1536575736395.png)
+![1536575736395](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575736395.png)
 
 ### 指针
 
 #### go语言的指针是不能运算的
 
-![1536575824050](.\go_img\1536575824050.png)
+![1536575824050](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575824050.png)
 
 #### c++代码说明值传递，引用传递的区别
 
-![1536575870779](.\go_img\1536575870779.png)
+![1536575870779](https://github.com/qaqtime/myenvironment/blob/master/go_img/1536575870779.png)
 
 ##### 正确答案最好是：3			4
 
